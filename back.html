@@ -1,0 +1,59 @@
+<html>
+<head>
+  <h2>Navigation</h2>
+  <style>
+ .backbutton {
+  background-color:#F9E79F;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inLine-blpck;
+  font-size: 14 px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.fwdbutton {
+   background-color:#FBC471;
+   border: none;
+   color: black;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inLine-blpck;
+   font-size: 14 px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+    </style>
+<!-- GoBack Script-->
+  <script>
+    function goBack(){
+      window.history.back()
+    }
+    </script>
+    <!-- Go Forward Script-->
+    <script>
+      function goFwd(){
+        window.history.Forward()
+      }
+      </script>
+    </head>
+    <body>
+      <table>
+        <tr>
+          <td><img src="images/em.jpg" height="250" width="300"</td>
+          </tr>
+        </table>
+      <table>
+        <tr>
+    <td><input type="button"class="backbutton" value="Back" onclick="goBack()"></td>
+    <td><input type="button" class="fwdbutton" value="Forward" onclick="Forward()"></td>
+    </tr>
+    </table>
+
+  </body>
+  </html>
